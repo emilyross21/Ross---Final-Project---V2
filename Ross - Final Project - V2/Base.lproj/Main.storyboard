@@ -67,7 +67,6 @@
                     <tabBarItem key="tabBarItem" title="Before You Start" image="camera.fill" catalog="system" selectedImage="camera" id="VfI-Ch-dkr"/>
                     <connections>
                         <outlet property="imageView" destination="kpO-ay-zff" id="GCA-Uz-gpi"/>
-                        <outlet property="takePicture" destination="sUc-Uw-XXs" id="wBA-9A-G8H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xt3-pg-bTU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -87,7 +86,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="download-8"/>
                                 <connections>
-                                    <action selector="flutterKick:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="GeO-8h-ErC"/>
                                     <action selector="flutterKickExercise:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="Wk2-3e-2Zu"/>
                                 </connections>
                             </button>
@@ -97,7 +95,6 @@
                                 <state key="normal" title="Button" image="download-5"/>
                                 <connections>
                                     <action selector="reverseCrunchExercise:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="jmb-07-Vec"/>
-                                    <action selector="reverseCrunchExervise:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="0Dq-Jo-fHd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XjP-kO-zSg">
@@ -122,7 +119,6 @@
                                 <state key="normal" title="Button" image="download-7"/>
                                 <connections>
                                     <action selector="hipDipPlankExercise:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="qMb-Nz-MTF"/>
-                                    <action selector="hipDipPlanksExercise:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="Ood-e9-GMw"/>
                                     <action selector="upDownPlankExercise:" destination="7Qe-mx-uWz" eventType="touchUpInside" id="MBE-JL-EzX"/>
                                 </connections>
                             </button>
@@ -400,8 +396,6 @@
                         <outlet property="exerciseThree" destination="ROh-ac-9Wo" id="PnX-Uy-LMh"/>
                         <outlet property="exerciseTwo" destination="cBL-WJ-Wzs" id="hjX-86-PhD"/>
                         <outlet property="flutterKickCounter" destination="QGj-A3-kNc" id="VOa-qF-dAa"/>
-                        <outlet property="heelTabCounter" destination="yeq-sF-sn6" id="QcN-Gf-aCe"/>
-                        <outlet property="heelTapCounter" destination="yeq-sF-sn6" id="xKr-8A-VJU"/>
                         <outlet property="heelTapsCounter" destination="yeq-sF-sn6" id="Bkc-wN-1OF"/>
                         <outlet property="hipDipPlankCounter" destination="BaN-GL-ndE" id="cih-D7-c4S"/>
                         <outlet property="legUpCrunchCounter" destination="Xg1-Lg-Hpm" id="fZx-KC-BRK"/>
